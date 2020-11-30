@@ -1,6 +1,6 @@
 # Blong-Gatsby
 ### oht1221's blog project(Blong) on Gatsby platform
-![Blong으로 ](Blong.netlify.app)
+![Blong으로 가기](Blong.netlify.app)
 ***
 
 </br>
