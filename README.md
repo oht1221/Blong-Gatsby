@@ -2,7 +2,8 @@
 ### oht1221's blog project(Blong) on Gatsby platform
 ***
 
-## - Blong 이란?
+## 
+- Blong 이란?
 &nbsp;Blong 은 제 이름의 한 글자인 Hong과 blog를 합쳐 만든 것으로 제 블로그의 타이틀입니다.
 ***
 ## - gatsby를 platform으로 선택한 이유?
