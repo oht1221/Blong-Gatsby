@@ -46,6 +46,7 @@ const BlogTitle = styled.div`
     display: inline-block;
   }
 `
+
 const Header = () => {
   const data = useStaticQuery(
     graphql`

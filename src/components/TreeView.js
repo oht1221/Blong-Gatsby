@@ -24,7 +24,7 @@ const TreeWrapper = styled.div`
   }
   .sub-list{
     transition: max-height .3s ease-out;
-    max-height: 100px;
+    max-height: 150px;
     overflow: hidden;
   }
   .sub-list.collapsed{

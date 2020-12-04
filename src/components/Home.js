@@ -3,6 +3,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 
 const Home = () => {
+  
   const data = useStaticQuery(graphql`
     query{
       allMarkdownRemark {
