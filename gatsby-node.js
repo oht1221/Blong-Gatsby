@@ -41,9 +41,3 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
-
-exports.onPreInit = async () => {
-  const contentsList = JSON.stringify(createContentsList('contents'), null, 2)
-  console.log(contentsList)
-  await fs.writeFile(`${__dirname}/postMetadata.json`, contentsList, err => console.log(err))
-}
