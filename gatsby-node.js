@@ -1,5 +1,7 @@
 const { createFilePath } = require('gatsby-source-filesystem')
 const path = require('path')
+const { createContentsList }= require('./createContentsList')
+const fs = require('fs')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -29,7 +31,6 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     }`)
   
-
   postResult.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
       path: node.fields.slug,
@@ -39,5 +40,10 @@ exports.createPages = async ({ graphql, actions }) => {
       }
     })
   })
+}
 
+exports.onPreInit = async () => {
+  const contentsList = JSON.stringify(createContentsList('contents'), null, 2)
+  console.log(contentsList)
+  await fs.writeFile(`${__dirname}/postMetadata.json`, contentsList, err => console.log(err))
 }

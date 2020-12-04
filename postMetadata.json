@@ -1,95 +1,92 @@
-{
-  "categories": [
-    {
-      "type": "category",
-      "title": "Development",
-      "id": "1fk20ckj20",
-      "children": [
-        {
-          "type": "post",
-          "title": "블로그 개발 일기_1",
-          "id": "3j9aksk392"
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "title": "Baseball",
-      "id": "dk29ghx7sj",
-      "children": [
-        {
-          "type": "category",
-          "title" : "KBO",
-          "id": "dj39dlsp10",
-          "children": [
-            {
-              "type": "post",
-              "title": "롯데자이언츠",
-              "id": "dj29aldk39",
-              "path":"lotte_giants"
-            },
-            {
-              "type": "post",
-              "title": "이대호",
-              "id": "fm3912oksla",
-              "path": "daeho_Lee"
-            },
-            {
-              "type": "post",
-              "title": "한동희",
-              "id": "39fmvvmdksl"
-            }
-          ]
-        },
-        {
-          "type": "category",
-          "title": "Saber Matrix",
-          "id": "d82jakxjeu",
-          "children":[
-            {
-              "type": "post",
-              "title": "WAR",
-              "id": "a0dk3k2lsi"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "category",
-      "title": "Life",
-      "id": "amf0skelek",
-      "children": [
-        {
-          "type": "category",
-          "title": "Miscellany",
-          "id": "f0ske02k42",
-          "children": [
-            {
-              "type": "post",
-              "title": "misc1",
-              "id": "gj10zmdka0"
-            },
-            {
-              "type": "post",
-              "title": "misc2",
-              "id": "fj20aldk2k"
-            }
-          ]
-        },
-        {
-          "type": "category",
-          "title": "Movies",
-          "id": "alskx9el2s",
-          "children":[
-            {
-              "type": "post",
-              "title": "fifty fifty",
-              "id": "20amdke939"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "type": "category",
+    "title": "Baseball",
+    "id": "5cb25b15-7b3a-4916-8a1f-7fd67fecc7a5",
+    "path": null,
+    "children": [
+      {
+        "type": "category",
+        "title": "KBO",
+        "id": "5aa61927-1e04-4dbd-8806-8e61275e6f3b",
+        "path": null,
+        "children": [
+          {
+            "type": "post",
+            "title": "daeho_Lee.md",
+            "id": "3df60cb8-11d2-4308-9c7b-b95a276ad29d",
+            "path": "/Baseball/KBO/daeho_Lee",
+            "children": []
+          },
+          {
+            "type": "post",
+            "title": "lotte_giants.md",
+            "id": "4edfb157-e7e0-417d-a77d-a3adab904ef3",
+            "path": "/Baseball/KBO/lotte_giants",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "title": "MLB",
+        "id": "dc82233f-f82e-458d-a675-ffd6df33faae",
+        "path": null,
+        "children": []
+      },
+      {
+        "type": "category",
+        "title": "Sabermetrics",
+        "id": "403fdfb6-4e87-4134-be67-d7da296ebee3",
+        "path": null,
+        "children": [
+          {
+            "type": "post",
+            "title": "war.md",
+            "id": "e88bd47c-8979-4f00-8b2f-badf9b8d6749",
+            "path": "/Baseball/Sabermetrics/war",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "Development",
+    "id": "bba6b073-7a15-4045-b683-1011b66dc6e3",
+    "path": null,
+    "children": [
+      {
+        "type": "post",
+        "title": "developing_blog_1.md",
+        "id": "9d63462f-f22f-4125-89ef-ffa03896594e",
+        "path": "/Development/developing_blog_1",
+        "children": []
+      }
+    ]
+  },
+  {
+    "type": "category",
+    "title": "Life",
+    "id": "59214dd3-ce77-425f-bc49-12214097dc40",
+    "path": null,
+    "children": [
+      {
+        "type": "category",
+        "title": "Movie",
+        "id": "6718c2fd-0607-4729-9944-471ad40f0946",
+        "path": null,
+        "children": [
+          {
+            "type": "post",
+            "title": "fifty_fifty.md",
+            "id": "7bfc7dd8-c652-4bd2-a0c0-d07af308c8a7",
+            "path": "/Life/Movie/fifty_fifty",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]

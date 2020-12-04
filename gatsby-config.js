@@ -6,8 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title_1: `Blong`,
-    title_2: `Hong's blog`
+    title: `Blong`,
+    subTitle: `Hong's blog`,
+    github: 'https://github.com/oht1221/Blong-Gatsby',
+    linkedIn: 'https://www.linkedin.com/in/hongtaek-oh-9b789312a/'
   },
   plugins: [
     {
@@ -24,6 +26,15 @@ module.exports = {
         footnotes: true, 
         pednatic: true,
         gfm: true,
+      }
+    },
+    {
+      resolve: `gatsby-plugin-emotion`,
+      options: {
+        sourceMap: true,
+        autoLabel: process.env.NODE_ENV !== 'production',
+        labelFormat: '[local]',
+        cssPropOptimization: true
       }
     }
   ],

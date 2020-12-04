@@ -8,7 +8,7 @@ const Post = ({ data }) => {
   return (
     <Layout>
       <div>
-        <div dangerouslySetInnerHTML={ { __html: post.html } } />
+        <div className='markdown-body' dangerouslySetInnerHTML={ { __html: post.html } } />
       </div>
     </Layout>
   )
